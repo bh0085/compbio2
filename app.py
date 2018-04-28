@@ -6,13 +6,10 @@ import linyi
 async def handle(request):
     name = request.match_info.get('name', "Anonymous")
     if name == "linyi":
-        text = linyi.analysis1()
+        return web.Response(text = linyi.render())
 
     else:
-        text = name
-        
-    
-    return web.Response(text=text)
+        return web.Response(text=text)
 
 
 

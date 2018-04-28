@@ -1,3 +1,5 @@
 *~
 venv/
 compbio2.egg-info
+*.pyc
+__pycache__

@@ -8,6 +8,6 @@ setup(
     license = "MIT",
     keywords = "zlab",
     url = "http://github.com/bh0085/compbio2",
-    install_requires=['numpy','scipy', 'biopython','aiohttp','ipython'],
+    install_requires=['numpy','scipy', 'biopython','aiohttp','ipython','aiohttp-devtools'],
     packages=['']
 )
